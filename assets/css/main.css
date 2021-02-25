@@ -92,7 +92,13 @@ input, select, textarea {
 /* i am the backgound color */
 	body {
 		/* background: #1b1f22; */
-		background: #ffffff;
+		background: #4c4c4c;
+		background: #7f7f7f;
+		background: #333333;
+		background:#e5e5e5;
+		background: #cccccc;
+
+		
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -137,6 +143,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
+		/* i am the font color */
 		color: #ffffff;
 		font-family: "Source Sans Pro", sans-serif;
 		font-weight: 300;
@@ -643,7 +650,8 @@ input, select, textarea {
 
 		.image:before {
 			pointer-events: none;
-			background-image: url("../../images/overlay.png");
+			/* i am the overlay for pop ups */
+			/* background-image: url("../../images/overlay.png"); */
 			background-color: rgba(19, 21, 25, 0.5);
 			border-radius: 4px;
 			content: '';
@@ -1136,7 +1144,8 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
+			/* i am the back ground overlay image */
+/* background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png"); */
 			background-size: auto,
  256px 256px;
 			background-position: center,
@@ -1155,6 +1164,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
+			/* i am the background image */
 			/* background-image: url("../../images/white.jpg"); */
 			background-position: center;
 			background-size: cover;
@@ -1251,10 +1261,11 @@ input, select, textarea {
 		-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
 		-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
 		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		background-image: -moz-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
+		/* i am the background linear */
+		/* background-image: -moz-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		background-image: -ms-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
-		background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
+		background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%); */
 		max-width: 100%;
 		text-align: center;
 	}
@@ -1288,26 +1299,26 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			width: 7.5rem;
-			height: 7.5rem;
-			line-height: 7.5rem;
+			width: 8.5rem;
+			height: 8.5rem;
+			line-height: 8.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
 		}
 	
-	
+	/* i am the aiereen image in pc screen */
 
 		#header .avatar img {
 
-			width: 7.5rem;
-			height: 7.5rem;
-			line-height: 7.5rem;
-			border: solid 1px #ffffff;
+			width: 8.3rem;
+			height: 8.3rem;
+			line-height: 8.3rem;
+			/* border: solid 1px #ffffff; */
 			border-radius: 100%;
 
 			display: block;
 			margin: 0 auto;
-			 box-shadow: 0 0 0 1px #ffffff;
+			 /* box-shadow: 0 0 0 1px #ffffff; */
 		}
 
 			#header .logo .icon:before {
@@ -1452,16 +1463,17 @@ input, select, textarea {
 					top: calc(-2rem - 1px);
 					height: calc(2rem + 1px);
 				}
+				/* i am the aiereen image in mobile screen */
 
 				#header .logo .avatar img {
-					width: 4.75rem;
-					height: 4.75rem;
-					line-height: 4.75rem;
+					width: 7.5rem;
+					height: 7.5rem;
+					line-height: 7.5rem;
 				}
 			#header .logo {
-				width: 4.75rem;
-				height: 4.75rem;
-				line-height: 4.75rem;
+				width: 7.75rem;
+				height: 7.75rem;
+				line-height: 7.75rem;
 			}
 
 				#header .logo .icon:before {
@@ -1564,8 +1576,9 @@ input, select, textarea {
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			/* background-color: rgba(27, 31, 34, 0.85); */
-			background-color: rgba(246, 252, 251, 0.185);
+			/* i am the pop up background color */
+			background-color: rgba(27, 31, 34, 0.85);
+			/* background-color: rgba(130, 245, 53, 0.952); */
 			border-radius: 4px;
 			opacity: 0;
 		}
@@ -1619,9 +1632,9 @@ input, select, textarea {
 				}
 
 			
-		
+		/* i am the copy from the other webpage */
 
-					 @media screen and (max-width: 480px) {
+					 /* @media screen and (max-width: 480px) {
 
 						#header {
 							padding: 4em 2em 2.5em 2em ;
@@ -1634,7 +1647,7 @@ input, select, textarea {
 								
 							}
 			
-					} 
+					}  */
 
 					/* TILL HERE************************************************** */
 
