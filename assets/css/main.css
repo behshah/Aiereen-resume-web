@@ -1562,7 +1562,7 @@ input, select, textarea {
 		max-width: 100%;
 		z-index: 3;
 	}
-
+	/*  */
 		#main article {
 			-moz-transform: translateY(0.25rem);
 			-webkit-transform: translateY(0.25rem);
